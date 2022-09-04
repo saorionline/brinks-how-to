@@ -3,9 +3,8 @@ const myGlobal = 0;
 
 function almondFridi () {
     const aNumb = 1;
-    console.log(myGlobal);
 
-    // Funcion interna
+    // Internal function
     function parent() {
         const inner = 2;
         console.log(aNumb, myGlobal);
